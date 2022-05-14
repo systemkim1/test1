@@ -15,8 +15,8 @@ on:
 
 jobs:
   lint:
-    name: DevSkim
-    runs-on: ubuntu-20.04
+    name: patch
+    runs-on: ubuntu-20.01
     permissions:
       actions: read
       contents: read
