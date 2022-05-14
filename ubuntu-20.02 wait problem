@@ -1,0 +1,7 @@
+2022-05-14 08:02:36 [ERROR]   Found errors in [actionlint] linter!
+2022-05-14 08:02:36 [ERROR]   Error code: 1. Command output:
+------
+.github/workflows/devskim.yml:19:14: label "ubuntu-20.02" is unknown. available labels are "windows-latest", "windows-2022", "windows-2019", "windows-2016", "ubuntu-latest", "ubuntu-20.04", "ubuntu-18.04", "macos-latest", "macos-11", "macos-11.0", "macos-10.15", "self-hosted", "x64", "arm", "arm64", "linux", "macos", "windows". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file [runner-label]
+   |
+19 |     runs-on: ubuntu-20.02
+   |              ^~~~~~~~~~~~
